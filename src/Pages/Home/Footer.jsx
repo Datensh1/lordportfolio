@@ -5,7 +5,9 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        
+        <div>
+          <img src="./img/logo.svg" alt="LJ Portfolio" />
+        </div>
         <div className="footer--items">
           <ul>
             <li>
@@ -31,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Project
               </Link>
             </li>
             <li>
